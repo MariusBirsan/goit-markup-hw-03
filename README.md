@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-GoIT_homework_3
+# goit-markup-hw-02
+GoIT_homework_2
