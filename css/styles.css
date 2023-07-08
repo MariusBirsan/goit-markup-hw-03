@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 :root {
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
@@ -11,6 +17,10 @@ body {
   font-family: var(--text-font-family);
   font-weight: 700;
   color: var(--heading-color);
+}
+
+.container {
+  width: 1600px;
 }
 
 ul {
