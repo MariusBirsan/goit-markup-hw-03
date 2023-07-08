@@ -1,0 +1,154 @@
+:root {
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --heading-color: #212121;
+  --text-color: #757575;
+  --hover-color: #2196f3;
+  --backround-text-color: #fff;
+}
+
+body {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--text-font-family);
+  color: var(--heading-color);
+  font-size: 0.875em;
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 1.625em;
+}
+
+.logo span {
+  color: var(--hover-color);
+}
+
+.top {
+  color: var(--heading-color);
+}
+
+.bottom {
+  color: var(--backround-text-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--hover-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--hover-color);
+  color: var(--backround-text-color);
+}
+
+header a {
+  font-weight: 500;
+}
+
+footer a {
+  font-weight: 400;
+}
+
+.about-section h1 {
+  font-size: 2.75em;
+  color: var(--backround-text-color);
+}
+
+.about-section button {
+  width: 12.5em;
+  height: 3.125em;
+  background-color: var(--hover-color);
+  color: var(--backround-text-color);
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 0.25em;
+  border-width: 0;
+}
+
+.about-section,
+footer {
+  background-color: #2f303a;
+}
+
+.active {
+  color: var(--link-color);
+}
+
+.top-mail,
+.top-phone {
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  color: var(--text-color);
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 0.875em;
+}
+
+.filter {
+  border-radius: 0.25em;
+  height: 2.375em;
+  background-color: #f5f4fa;
+  border-width: 0;
+}
+
+.first {
+  width: 4em;
+  color: var(--backround-text-color);
+  background-color: var(--link-color);
+}
+
+.second {
+  width: 7.5em;
+}
+
+.third {
+  width: 5.1875em;
+}
+
+.forth {
+  width: 6em;
+}
+
+.fifth {
+  width: 7.5625em;
+}
+
+.activities-section {
+  font-size: 0.875em;
+}
+
+address {
+  font-size: 0.875em;
+  color: var(--backround-text-color);
+}
+
+.bottom-mail,
+.bottom-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+  cursor: pointer;
+}
