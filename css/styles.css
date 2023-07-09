@@ -15,7 +15,6 @@ body {
 }
 
 .container {
-  width: 1600px;
   display: block;
   margin: 0 calc((100% - 1600px) / 2) 0;
 }
